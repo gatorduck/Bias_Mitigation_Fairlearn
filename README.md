@@ -212,19 +212,6 @@ thresh_preds = threshold_optimizer.predict(X_test, sensitive_features=X_test['Ra
 Lets compare before and after results. We see a significant increase in recall for our minority class.
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
